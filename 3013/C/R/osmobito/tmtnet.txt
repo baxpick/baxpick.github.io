@@ -1,0 +1,23 @@
+login
+logout
+status
+users clear
+users read
+user id
+user info [ID]
+app set [NAME]
+app get [ID]
+chat send [ID] [MSG]
+chat input status
+chat input
+stream set [MODE]
+stream get
+stream query [ID]
+multi master
+multi client [ID]
+multi iam
+multi statset [STATUS]
+multi statget [PLAYER]
+multi send [PLAYER] [X] [Y]
+multi read
+multi bits

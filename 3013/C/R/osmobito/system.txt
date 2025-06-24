@@ -1,0 +1,10 @@
+ram read [CONFIG] [POS]
+dfu
+info
+reset
+errlast
+errn
+vuled
+log
+firmware
+random
