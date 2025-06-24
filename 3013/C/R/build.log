@@ -2,9 +2,9 @@
 [loader::fresh.sh] REBUILD
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:09+0000] [loader::fresh.sh] cleaned project
-ℹ️ [2025-06-24T12:16:09+0000] [loader::fresh.sh] removed windows dll (debug): /build/retro/projects/loader/sln/Debug
-ℹ️ [2025-06-24T12:16:09+0000] [loader::fresh.sh] removed windows dll (release): /build/retro/projects/loader/sln/Release
+ℹ️ [2025-06-24T12:26:35+0000] [loader::fresh.sh] cleaned project
+ℹ️ [2025-06-24T12:26:35+0000] [loader::fresh.sh] removed windows dll (debug): /build/retro/projects/loader/sln/Debug
+ℹ️ [2025-06-24T12:26:35+0000] [loader::fresh.sh] removed windows dll (release): /build/retro/projects/loader/sln/Release
 
 [loader::make.sh] Build binaries to load
 ================================================================================
@@ -13,12 +13,12 @@
 [hello::fresh.sh] REBUILD - clean/prepare
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] cleaned project
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] removed windows sounds (debug): /build/retro/projects/hello/sln/Debug/assets/sound/arkos2/fx
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] removed windows sounds (release): /build/retro/projects/hello/sln/Release/assets/sound/arkos2/fx
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] removed windows dll (debug): /build/retro/projects/hello/sln/Debug
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] removed windows dll (release): /build/retro/projects/hello/sln/Release
-ℹ️ [2025-06-24T12:16:09+0000] [hello::fresh.sh] removed compression source: /build/retro/projects/hello/src/compression
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] cleaned project
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] removed windows sounds (debug): /build/retro/projects/hello/sln/Debug/assets/sound/arkos2/fx
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] removed windows sounds (release): /build/retro/projects/hello/sln/Release/assets/sound/arkos2/fx
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] removed windows dll (debug): /build/retro/projects/hello/sln/Debug
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] removed windows dll (release): /build/retro/projects/hello/sln/Release
+ℹ️ [2025-06-24T12:26:35+0000] [hello::fresh.sh] removed compression source: /build/retro/projects/hello/src/compression
 
 [hello::fresh.sh] REBUILD - build
 ================================================================================
@@ -28,313 +28,313 @@
 [convert.sh] IMAGES
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:09+0000] [convert_images.sh] check /build/retro/projects/hello/assets/images/sfore/bg.bmp...
-✔️ [2025-06-24T12:16:09+0000] [convert_images.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/images/sfore/bg.bin'
-❤️ [2025-06-24T12:16:09+0000] [convert_images.sh] MAX_SIZE=16384
+ℹ️ [2025-06-24T12:26:35+0000] [convert_images.sh] check /build/retro/projects/hello/assets/images/sfore/bg.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_images.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/images/sfore/bg.bin'
+❤️ [2025-06-24T12:26:35+0000] [convert_images.sh] MAX_SIZE=16384
 
 
 [convert.sh] SPRITES
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:09+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/100x164/bgsfesk.bmp...
-✔️ [2025-06-24T12:16:09+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/bgsfesk.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/100x164/bgsfesk.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/bgsfesk.bin'
 
-ℹ️ [2025-06-24T12:16:09+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/4x8/fntdef.bmp...
-✔️ [2025-06-24T12:16:09+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntdef.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/4x8/fntdef.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntdef.bin'
 
-ℹ️ [2025-06-24T12:16:09+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfudo.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfudo.bin'
-ℹ️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfong.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfong.bin'
-ℹ️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/ornaments.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ornaments.bin'
-ℹ️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfesk.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfesk.bin'
-ℹ️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/icosfesk.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/icosfesk.bin'
-ℹ️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/stsfesk.bmp...
-✔️ [2025-06-24T12:16:10+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/stsfesk.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfudo.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfudo.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfong.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfong.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/ornaments.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ornaments.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/fntsfesk.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/fntsfesk.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/icosfesk.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/icosfesk.bin'
+ℹ️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] check /build/retro/projects/hello/assets/sprites/8x8/stsfesk.bmp...
+✔️ [2025-06-24T12:26:35+0000] [convert_sprites.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/stsfesk.bin'
 
 
 [convert.sh] UI
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:14+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui'...
-ℹ️ [2025-06-24T12:16:14+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfell/sfell.json'...
-✔️ [2025-06-24T12:16:14+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfell_ui.bin'
-ℹ️ [2025-06-24T12:16:14+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfesktop/sfesktop.json'...
-✔️ [2025-06-24T12:16:15+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfesktop_ui.bin'
-ℹ️ [2025-06-24T12:16:15+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfong/sfong.json'...
-✔️ [2025-06-24T12:16:17+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfong_ui.bin'
-ℹ️ [2025-06-24T12:16:17+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfotify/sfotify.json'...
-✔️ [2025-06-24T12:16:18+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfotify_ui.bin'
-ℹ️ [2025-06-24T12:16:18+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfudo/sfudo.json'...
-✔️ [2025-06-24T12:16:18+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfudo_ui.bin'
-ℹ️ [2025-06-24T12:16:18+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfype/sfype.json'...
-✔️ [2025-06-24T12:16:20+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfype_ui.bin'
+ℹ️ [2025-06-24T12:26:39+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui'...
+ℹ️ [2025-06-24T12:26:39+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfell/sfell.json'...
+✔️ [2025-06-24T12:26:40+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfell_ui.bin'
+ℹ️ [2025-06-24T12:26:40+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfesktop/sfesktop.json'...
+✔️ [2025-06-24T12:26:41+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfesktop_ui.bin'
+ℹ️ [2025-06-24T12:26:41+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfong/sfong.json'...
+✔️ [2025-06-24T12:26:43+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfong_ui.bin'
+ℹ️ [2025-06-24T12:26:43+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfotify/sfotify.json'...
+✔️ [2025-06-24T12:26:44+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfotify_ui.bin'
+ℹ️ [2025-06-24T12:26:44+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfudo/sfudo.json'...
+✔️ [2025-06-24T12:26:44+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfudo_ui.bin'
+ℹ️ [2025-06-24T12:26:44+0000] [convert_ui.sh] Check '/build/retro/projects/hello/assets/ui/sfype/sfype.json'...
+✔️ [2025-06-24T12:26:46+0000] [convert_ui.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfype_ui.bin'
 
 [convert.sh] CHUNKS
 ================================================================================
 
-ℹ️ [2025-06-24T12:16:20+0000] [convert_chunks.sh] check '/build/retro/projects/hello/assets/chunks'...
-✔️ [2025-06-24T12:16:20+0000] [convert_chunks.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/reqp.cnk'
-✔️ [2025-06-24T12:16:20+0000] [convert_chunks.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/texts.cnk'
-✔️ [2025-06-24T12:16:20+0000] [hello::make.sh] /build/retro/projects/hello/assets/usb/. => /build/retro/projects/hello/src/assets/usb/.
+ℹ️ [2025-06-24T12:26:46+0000] [convert_chunks.sh] check '/build/retro/projects/hello/assets/chunks'...
+✔️ [2025-06-24T12:26:46+0000] [convert_chunks.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/reqp.cnk'
+✔️ [2025-06-24T12:26:46+0000] [convert_chunks.sh] generated '/build/retro/projects/hello/src/assets/usb/osmobito/texts.cnk'
+✔️ [2025-06-24T12:26:46+0000] [hello::make.sh] /build/retro/projects/hello/assets/usb/. => /build/retro/projects/hello/src/assets/usb/.
 
 [hello::make.sh] BUFFERS
 ================================================================================
 
-✔️ [2025-06-24T12:16:20+0000] [hello::make.sh] Z80CODELOC => 0x4000
+✔️ [2025-06-24T12:26:46+0000] [hello::make.sh] Z80CODELOC => 0x4000
 
 [hello::make.sh] Build all with app 'sfong'
 ================================================================================
 
-❤️ [2025-06-24T12:16:20+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:20+0000] make -j3 all
-❤️ [2025-06-24T12:16:23+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:23+0000] make -j3 all
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] CPC.00 => sfong.cpc
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : 'E843' (init)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : 'FF43' (enter)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '0244' (exit)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : 'CE4C' (update)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '014D' (refresh)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '604D' (draw)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '7D4E' (action_click)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : 'B54E' (action_key)
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFONG...zeros...' (app name)
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '3F10' (resources address)
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00031 (001F) [ 00364 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfong_ui.bin' (UI)
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00395 (018B) [ 00117 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 00512 (0200) [ 03647 bytes ] : code & data
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:24+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfong/sfong_resources.json'...
-ℹ️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 04159 (103F) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 04159 (103F) [ 00002 bytes ] : '5F10' (resource address also here: TEOPL_RESOURCE_sfong_FONT)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 04191 (105F) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfong.bin'
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 04161 (1041) [ 00002 bytes ] : '6316' (resource address also here: TEOPL_RESOURCE_sfong_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 05731 (1663) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 04163 (1043) [ 00002 bytes ] : '4C1A' (resource address also here: TEOPL_RESOURCE_sfong_ORNAMENTS)
-✔️ [2025-06-24T12:16:24+0000] [hello::make.sh] @ 06732 (1A4C) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] Left bytes: 9600
+❤️ [2025-06-24T12:26:46+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:26:46+0000] make -j3 all
+❤️ [2025-06-24T12:26:49+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:26:49+0000] make -j3 all
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] CPC.00 => sfong.cpc
+❤️ [2025-06-24T12:26:50+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : 'E843' (init)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : 'FF43' (enter)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '0244' (exit)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : 'CE4C' (update)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '014D' (refresh)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '604D' (draw)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '7D4E' (action_click)
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : 'B54E' (action_key)
+❤️ [2025-06-24T12:26:50+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFONG...zeros...' (app name)
+❤️ [2025-06-24T12:26:50+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '3F10' (resources address)
+❤️ [2025-06-24T12:26:50+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:26:50+0000] [hello::make.sh] @ 00031 (001F) [ 00364 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfong_ui.bin' (UI)
+❤️ [2025-06-24T12:26:50+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 00395 (018B) [ 00117 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:26:51+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 00512 (0200) [ 03647 bytes ] : code & data
+❤️ [2025-06-24T12:26:51+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:26:51+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfong/sfong_resources.json'...
+ℹ️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 04159 (103F) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 04159 (103F) [ 00002 bytes ] : '5F10' (resource address also here: TEOPL_RESOURCE_sfong_FONT)
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 04191 (105F) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfong.bin'
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 04161 (1041) [ 00002 bytes ] : '6316' (resource address also here: TEOPL_RESOURCE_sfong_TEXT_BUFFER)
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 05731 (1663) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 04163 (1043) [ 00002 bytes ] : '4C1A' (resource address also here: TEOPL_RESOURCE_sfong_ORNAMENTS)
+✔️ [2025-06-24T12:26:51+0000] [hello::make.sh] @ 06732 (1A4C) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
+❤️ [2025-06-24T12:26:51+0000] [hello::make.sh] Left bytes: 9600
 
 [hello::make.sh] Build all with app 'sfudo'
 ================================================================================
 
-❤️ [2025-06-24T12:16:24+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:24+0000] make -j3 all
-❤️ [2025-06-24T12:16:25+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:25+0000] make -j3 all
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] CPC.00 => sfudo.cpc
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : 'D64A' (init)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '734B' (enter)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '764B' (exit)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '774B' (update)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '7D4B' (refresh)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '1F4C' (draw)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'D14D' (action_click)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '254E' (action_key)
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFUDO...zeros...' (app name)
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'AC0E' (resources address)
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00031 (001F) [ 00112 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfudo_ui.bin' (UI)
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00143 (008F) [ 00369 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 00512 (0200) [ 03244 bytes ] : code & data
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:26+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfudo/sfudo_resources.json'...
-ℹ️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 03756 (0EAC) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 03756 (0EAC) [ 00002 bytes ] : 'CC0E' (resource address also here: TEOPL_RESOURCE_sfudo_FONT)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 03788 (0ECC) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfudo.bin'
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 03758 (0EAE) [ 00002 bytes ] : 'D014' (resource address also here: TEOPL_RESOURCE_sfudo_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 05328 (14D0) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 03760 (0EB0) [ 00002 bytes ] : 'B918' (resource address also here: TEOPL_RESOURCE_sfudo_ORNAMENTS)
-✔️ [2025-06-24T12:16:26+0000] [hello::make.sh] @ 06329 (18B9) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] Left bytes: 10003
+❤️ [2025-06-24T12:26:51+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:26:51+0000] make -j3 all
+❤️ [2025-06-24T12:26:52+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:26:52+0000] make -j3 all
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] CPC.00 => sfudo.cpc
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : 'D64A' (init)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '734B' (enter)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '764B' (exit)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '774B' (update)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '7D4B' (refresh)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '1F4C' (draw)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'D14D' (action_click)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '254E' (action_key)
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFUDO...zeros...' (app name)
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'AC0E' (resources address)
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00031 (001F) [ 00112 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfudo_ui.bin' (UI)
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00143 (008F) [ 00369 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 00512 (0200) [ 03244 bytes ] : code & data
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:26:53+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfudo/sfudo_resources.json'...
+ℹ️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 03756 (0EAC) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 03756 (0EAC) [ 00002 bytes ] : 'CC0E' (resource address also here: TEOPL_RESOURCE_sfudo_FONT)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 03788 (0ECC) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfudo.bin'
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 03758 (0EAE) [ 00002 bytes ] : 'D014' (resource address also here: TEOPL_RESOURCE_sfudo_TEXT_BUFFER)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 05328 (14D0) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 03760 (0EB0) [ 00002 bytes ] : 'B918' (resource address also here: TEOPL_RESOURCE_sfudo_ORNAMENTS)
+✔️ [2025-06-24T12:26:53+0000] [hello::make.sh] @ 06329 (18B9) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] Left bytes: 10003
 
 [hello::make.sh] Build all with app 'sfotify'
 ================================================================================
 
-❤️ [2025-06-24T12:16:26+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:26+0000] make -j3 all
-❤️ [2025-06-24T12:16:28+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:28+0000] make -j3 all
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] CPC.00 => sfotify.cpc
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '564C' (init)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '784C' (enter)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '9D4C' (exit)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '9E4C' (update)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : 'D74C' (refresh)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '124D' (draw)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '474E' (action_click)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '9B4E' (action_key)
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFOTIFY...zeros...' (app name)
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '6611' (resources address)
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00031 (001F) [ 00196 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfotify_ui.bin' (UI)
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00227 (00E3) [ 00285 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 00512 (0200) [ 03942 bytes ] : code & data
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:29+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfotify/sfotify_resources.json'...
-ℹ️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 04454 (1166) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 04454 (1166) [ 00002 bytes ] : '8611' (resource address also here: TEOPL_RESOURCE_sfotify_FONT)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 04486 (1186) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 04456 (1168) [ 00002 bytes ] : '9214' (resource address also here: TEOPL_RESOURCE_sfotify_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 05266 (1492) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 04458 (116A) [ 00002 bytes ] : '7B18' (resource address also here: TEOPL_RESOURCE_sfotify_ORNAMENTS)
-✔️ [2025-06-24T12:16:29+0000] [hello::make.sh] @ 06267 (187B) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] Left bytes: 10065
+❤️ [2025-06-24T12:26:53+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:26:53+0000] make -j3 all
+❤️ [2025-06-24T12:26:54+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:26:54+0000] make -j3 all
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] CPC.00 => sfotify.cpc
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '564C' (init)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '784C' (enter)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '9D4C' (exit)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '9E4C' (update)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : 'D74C' (refresh)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '124D' (draw)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '474E' (action_click)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '9B4E' (action_key)
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFOTIFY...zeros...' (app name)
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '6611' (resources address)
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00031 (001F) [ 00196 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfotify_ui.bin' (UI)
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00227 (00E3) [ 00285 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 00512 (0200) [ 03942 bytes ] : code & data
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:26:56+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfotify/sfotify_resources.json'...
+ℹ️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 04454 (1166) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 04454 (1166) [ 00002 bytes ] : '8611' (resource address also here: TEOPL_RESOURCE_sfotify_FONT)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 04486 (1186) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 04456 (1168) [ 00002 bytes ] : '9214' (resource address also here: TEOPL_RESOURCE_sfotify_TEXT_BUFFER)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 05266 (1492) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 04458 (116A) [ 00002 bytes ] : '7B18' (resource address also here: TEOPL_RESOURCE_sfotify_ORNAMENTS)
+✔️ [2025-06-24T12:26:56+0000] [hello::make.sh] @ 06267 (187B) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] Left bytes: 10065
 
 [hello::make.sh] Build all with app 'sfesktop'
 ================================================================================
 
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:29+0000] make -j3 all
-❤️ [2025-06-24T12:16:29+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:29+0000] make -j3 all
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] CPC.00 => sfesktop.cpc
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '0042' (init)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : 'CE42' (enter)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : 'D142' (exit)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : 'D242' (update)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : 'D342' (refresh)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : 'B544' (draw)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'B644' (action_click)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '9A45' (action_key)
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFESKTOP...zeros...' (app name)
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'A705' (resources address)
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00031 (001F) [ 00316 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfesktop_ui.bin' (UI)
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00347 (015B) [ 00165 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 00512 (0200) [ 00935 bytes ] : code & data
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:30+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfesktop/sfesktop_resources.json'...
-ℹ️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01447 (05A7) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01447 (05A7) [ 00002 bytes ] : 'C705' (resource address also here: TEOPL_RESOURCE_sfesktop_FONT)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01479 (05C7) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfesk.bin'
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01449 (05A9) [ 00002 bytes ] : 'CB0B' (resource address also here: TEOPL_RESOURCE_sfesktop_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 03019 (0BCB) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01451 (05AB) [ 00002 bytes ] : 'B40F' (resource address also here: TEOPL_RESOURCE_sfesktop_ICONS)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 04020 (0FB4) [ 00788 bytes ] : 'src/assets/usb/osmobito/icosfesk.bin'
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01453 (05AD) [ 00002 bytes ] : 'C812' (resource address also here: TEOPL_RESOURCE_sfesktop_SYSTEMTRAY)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 04808 (12C8) [ 00212 bytes ] : 'src/assets/usb/osmobito/stsfesk.bin'
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 01455 (05AF) [ 00002 bytes ] : '9C13' (resource address also here: TEOPL_RESOURCE_sfesktop_BACKGROUND_IMAGE)
-✔️ [2025-06-24T12:16:30+0000] [hello::make.sh] @ 05020 (139C) [ 04120 bytes ] : 'src/assets/usb/osmobito/bgsfesk.bin'
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] Left bytes: 7244
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:26:56+0000] make -j3 all
+❤️ [2025-06-24T12:26:56+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:26:56+0000] make -j3 all
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] CPC.00 => sfesktop.cpc
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '0042' (init)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : 'CE42' (enter)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : 'D142' (exit)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : 'D242' (update)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : 'D342' (refresh)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : 'B544' (draw)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'B644' (action_click)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '9A45' (action_key)
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFESKTOP...zeros...' (app name)
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'A705' (resources address)
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00031 (001F) [ 00316 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfesktop_ui.bin' (UI)
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00347 (015B) [ 00165 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 00512 (0200) [ 00935 bytes ] : code & data
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:26:57+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfesktop/sfesktop_resources.json'...
+ℹ️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01447 (05A7) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01447 (05A7) [ 00002 bytes ] : 'C705' (resource address also here: TEOPL_RESOURCE_sfesktop_FONT)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01479 (05C7) [ 01540 bytes ] : 'src/assets/usb/osmobito/fntsfesk.bin'
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01449 (05A9) [ 00002 bytes ] : 'CB0B' (resource address also here: TEOPL_RESOURCE_sfesktop_TEXT_BUFFER)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 03019 (0BCB) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01451 (05AB) [ 00002 bytes ] : 'B40F' (resource address also here: TEOPL_RESOURCE_sfesktop_ICONS)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 04020 (0FB4) [ 00788 bytes ] : 'src/assets/usb/osmobito/icosfesk.bin'
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01453 (05AD) [ 00002 bytes ] : 'C812' (resource address also here: TEOPL_RESOURCE_sfesktop_SYSTEMTRAY)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 04808 (12C8) [ 00212 bytes ] : 'src/assets/usb/osmobito/stsfesk.bin'
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 01455 (05AF) [ 00002 bytes ] : '9C13' (resource address also here: TEOPL_RESOURCE_sfesktop_BACKGROUND_IMAGE)
+✔️ [2025-06-24T12:26:57+0000] [hello::make.sh] @ 05020 (139C) [ 04120 bytes ] : 'src/assets/usb/osmobito/bgsfesk.bin'
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] Left bytes: 7244
 
 [hello::make.sh] Build all with app 'sfell'
 ================================================================================
 
-❤️ [2025-06-24T12:16:30+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:30+0000] make -j3 all
-❤️ [2025-06-24T12:16:32+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:32+0000] make -j3 all
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] CPC.00 => sfell.cpc
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '4444' (init)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '5944' (enter)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '5C44' (exit)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '5D44' (update)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '5E44' (refresh)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : 'BD44' (draw)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '0645' (action_click)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '5A45' (action_key)
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFELL...zeros...' (app name)
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'B218' (resources address)
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00031 (001F) [ 00100 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfell_ui.bin' (UI)
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00131 (0083) [ 00381 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 00512 (0200) [ 05810 bytes ] : code & data
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:34+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfell/sfell_resources.json'...
-ℹ️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 06322 (18B2) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 06322 (18B2) [ 00002 bytes ] : 'D218' (resource address also here: TEOPL_RESOURCE_sfell_FONT)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 06354 (18D2) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 06324 (18B4) [ 00002 bytes ] : 'DE1B' (resource address also here: TEOPL_RESOURCE_sfell_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 07134 (1BDE) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 06326 (18B6) [ 00002 bytes ] : 'C71F' (resource address also here: TEOPL_RESOURCE_sfell_ORNAMENTS)
-✔️ [2025-06-24T12:16:34+0000] [hello::make.sh] @ 08135 (1FC7) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] Left bytes: 8197
+❤️ [2025-06-24T12:26:57+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:26:57+0000] make -j3 all
+❤️ [2025-06-24T12:26:59+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:26:59+0000] make -j3 all
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] CPC.00 => sfell.cpc
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '4444' (init)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '5944' (enter)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '5C44' (exit)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '5D44' (update)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '5E44' (refresh)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : 'BD44' (draw)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : '0645' (action_click)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : '5A45' (action_key)
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFELL...zeros...' (app name)
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : 'B218' (resources address)
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00031 (001F) [ 00100 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfell_ui.bin' (UI)
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00131 (0083) [ 00381 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 00512 (0200) [ 05810 bytes ] : code & data
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:27:01+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfell/sfell_resources.json'...
+ℹ️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 06322 (18B2) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 06322 (18B2) [ 00002 bytes ] : 'D218' (resource address also here: TEOPL_RESOURCE_sfell_FONT)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 06354 (18D2) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 06324 (18B4) [ 00002 bytes ] : 'DE1B' (resource address also here: TEOPL_RESOURCE_sfell_TEXT_BUFFER)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 07134 (1BDE) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 06326 (18B6) [ 00002 bytes ] : 'C71F' (resource address also here: TEOPL_RESOURCE_sfell_ORNAMENTS)
+✔️ [2025-06-24T12:27:01+0000] [hello::make.sh] @ 08135 (1FC7) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] Left bytes: 8197
 
 [hello::make.sh] Build all with app 'sfype'
 ================================================================================
 
-❤️ [2025-06-24T12:16:34+0000] [hello::make.sh] BUILD: step 1️⃣
-🚀[2025-06-24T12:16:34+0000] make -j3 all
-❤️ [2025-06-24T12:16:35+0000] [hello::make.sh] BUILD: step 2️⃣
-🚀[2025-06-24T12:16:35+0000] make -j3 all
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] CPC.00 => sfype.cpc
-❤️ [2025-06-24T12:16:35+0000] [hello::make.sh] [HEADER] Function addresses
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '2742' (init)
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '3E42' (enter)
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '4D42' (exit)
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '4E42' (update)
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '8C42' (refresh)
-✔️ [2025-06-24T12:16:35+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '5744' (draw)
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'BE45' (action_click)
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : 'BB47' (action_key)
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [HEADER] App name
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFYPE...zeros...' (app name)
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [HEADER] Resources address
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '0408' (resources address)
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [HEADER] UI data
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00031 (001F) [ 00304 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfype_ui.bin' (UI)
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [HEADER] ... (unused) ...
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00335 (014F) [ 00177 bytes ] : zeros filling remaining header to total of 512 bytes
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [APP]
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 00512 (0200) [ 01540 bytes ] : code & data
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] [RESOURCES]
-ℹ️ [2025-06-24T12:16:36+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfype/sfype_resources.json'...
-ℹ️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02052 (0804) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02052 (0804) [ 00002 bytes ] : '2408' (resource address also here: TEOPL_RESOURCE_sfype_FONT)
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02084 (0824) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02054 (0806) [ 00002 bytes ] : '300B' (resource address also here: TEOPL_RESOURCE_sfype_TEXT_BUFFER)
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02864 (0B30) [ 01001 bytes ] : 'assets/zeros.1001'
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 02056 (0808) [ 00002 bytes ] : '190F' (resource address also here: TEOPL_RESOURCE_sfype_ORNAMENTS)
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] @ 03865 (0F19) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] Left bytes: 12467
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] removed empty folders in /build/retro/projects/hello/src/assets
+❤️ [2025-06-24T12:27:01+0000] [hello::make.sh] BUILD: step 1️⃣
+🚀[2025-06-24T12:27:01+0000] make -j3 all
+❤️ [2025-06-24T12:27:02+0000] [hello::make.sh] BUILD: step 2️⃣
+🚀[2025-06-24T12:27:02+0000] make -j3 all
+✔️ [2025-06-24T12:27:02+0000] [hello::make.sh] MAIN_ADDRESS => 8689h
+✔️ [2025-06-24T12:27:02+0000] [hello::make.sh] CPC.BIN => CPC.00 + CPC.01 + CPC.02
+✔️ [2025-06-24T12:27:02+0000] [hello::make.sh] CPC.00 => sfype.cpc
+❤️ [2025-06-24T12:27:02+0000] [hello::make.sh] [HEADER] Function addresses
+✔️ [2025-06-24T12:27:02+0000] [hello::make.sh] @ 00000 (0000) [ 00002 bytes ] : '2742' (init)
+✔️ [2025-06-24T12:27:02+0000] [hello::make.sh] @ 00002 (0002) [ 00002 bytes ] : '3E42' (enter)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00004 (0004) [ 00002 bytes ] : '4D42' (exit)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00006 (0006) [ 00002 bytes ] : '4E42' (update)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00008 (0008) [ 00002 bytes ] : '8C42' (refresh)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00010 (000A) [ 00002 bytes ] : '5744' (draw)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00012 (000C) [ 00002 bytes ] : 'BE45' (action_click)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00014 (000E) [ 00002 bytes ] : 'BB47' (action_key)
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [HEADER] App name
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00016 (0010) [ 00013 bytes ] : 'SFYPE...zeros...' (app name)
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [HEADER] Resources address
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00029 (001D) [ 00002 bytes ] : '0408' (resources address)
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [HEADER] UI data
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00031 (001F) [ 00304 bytes ] : '/build/retro/projects/hello/src/assets/usb/osmobito/ui/sfype_ui.bin' (UI)
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [HEADER] ... (unused) ...
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00335 (014F) [ 00177 bytes ] : zeros filling remaining header to total of 512 bytes
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [APP]
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 00512 (0200) [ 01540 bytes ] : code & data
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] [RESOURCES]
+ℹ️ [2025-06-24T12:27:03+0000] [hello::make.sh] Inject resurce files from '/build/retro/projects/hello/assets/ui/sfype/sfype_resources.json'...
+ℹ️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02052 (0804) [ 00032 bytes ] : '0000000000000000000000000000000000000000000000000000000000000000'
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02052 (0804) [ 00002 bytes ] : '2408' (resource address also here: TEOPL_RESOURCE_sfype_FONT)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02084 (0824) [ 00780 bytes ] : 'src/assets/usb/osmobito/fntdef.bin'
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02054 (0806) [ 00002 bytes ] : '300B' (resource address also here: TEOPL_RESOURCE_sfype_TEXT_BUFFER)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02864 (0B30) [ 01001 bytes ] : 'assets/zeros.1001'
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 02056 (0808) [ 00002 bytes ] : '190F' (resource address also here: TEOPL_RESOURCE_sfype_ORNAMENTS)
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] @ 03865 (0F19) [ 00052 bytes ] : 'src/assets/usb/osmobito/ornaments.bin'
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] Left bytes: 12467
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] removed empty folders in /build/retro/projects/hello/src/assets
 
 [hello::make.sh] DEPLOY
 ================================================================================
 
-✔️ [2025-06-24T12:16:36+0000] [hello::make.sh] /build/retro/projects/hello/src/assets/usb/osmobito/* => /tmp/USB/osmobito
+✔️ [2025-06-24T12:27:03+0000] [hello::make.sh] /build/retro/projects/hello/src/assets/usb/osmobito/* => /tmp/USB/osmobito
                     obj/RST_sfell.rst : [4000 - 58B2] size: 6323
                  obj/RST_sfesktop.rst : [4000 - 45A7] size: 1448
                     obj/RST_sfong.rst : [4000 - 503F] size: 4160
@@ -380,10 +380,10 @@
 [hello::make.sh] SUGGESTIONS
 ================================================================================
 
-❤️ [2025-06-24T12:16:36+0000] [hello::make.sh] Minimum app header size could be: 395 instead of current 512. Update 'src/apps/header_placeholder' file. Be careful as last item in header is UI data which is not fixed in size!
-✔️ [2025-06-24T12:16:36+0000] [loader::make.sh] Build binaries to load... done!
+❤️ [2025-06-24T12:27:03+0000] [hello::make.sh] Minimum app header size could be: 395 instead of current 512. Update 'src/apps/header_placeholder' file. Be careful as last item in header is UI data which is not fixed in size!
+✔️ [2025-06-24T12:27:03+0000] [loader::make.sh] Build binaries to load... done!
 
 [loader::make.sh] BUILD
 ================================================================================
 
-🚀[2025-06-24T12:16:36+0000] make -j3 all
+🚀[2025-06-24T12:27:03+0000] make -j3 all
